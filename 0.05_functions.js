@@ -25,19 +25,14 @@ function getWeather(){
 getWeather();
 
 
-function greetingTwo(nameTwo){
-
-	var nameTwo;
-	console.log(nameTwo + " says \"Hello there buddy ol pal\"");
-
-}
-
 function zapatos(brand){
 
 	console.log("man those " + brand + " are dapper");
 }
 
 zapatos("vans");
+
+
 
 function add(num1, num2){
 
