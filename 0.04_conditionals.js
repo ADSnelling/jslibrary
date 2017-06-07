@@ -30,8 +30,8 @@ if (242 % 2 === 0) {
 	
 }
 
-var userName = "admin";
-var password = "password1";
+var userName = "adminn";
+var password = "passwordd";
 
 // if (userName == "admin") {
 
@@ -44,22 +44,88 @@ if (userName == "admin" && password == "password") {
 	console.log("you have been granted access!");
 	
 }else{
+
 	if(userName != "admin"){
+
 		console.log("username is wrong breh");
 		
-	}else{
+	}else if(password != "password"){
+
 		console.log("password is wrong breh");
 
 	}
+	
+}
+
+var age = 20;
+
+if (age >= 35) {
+
+	console.log("You can vote and also hold any place in gov");
+	
+}else if (age >= 25) {
+
+	console.log("You can vote and run for senates");
+	
+}else if (age >= 18) {
+
+	console.log("You can only vote");
+
+}else{
+	
+	console.log("sucks to suck");
+
 }
 
 
+var coltsWins = 4;
+var patsWins = 0;
+
+if (coltsWins == 0 && patsWins == 0){
+
+	console.log("soon as we can, we're gonna play and beat you");
+	
+}else if (patsWins > coltsWins) {
+
+	console.log("you guys cheated tf bros");
+
+}else if(patsWins == coltsWins){
+
+	console.log("you think youre as good as us huh? you thought wront cuzzo");
+	
+}else{
+	
+	console.log("sucks to suck brady");
+
+}
+
+
+for (i = 1; i <= 100; i++) { 
+
+    if(i % 3 == 0 && i % 5 == 0){
+
+    	console.log("FizzBuzz");
+
+    }else if (i % 3 == 0) {
+
+    	console.log("Fizz");
+
+    }else if (i % 5 == 0) {
+
+    	console.log("Buzz");
+
+    }else{
+
+    	console.log(i)
+
+    }//end if
+
+}//end for loop
 
 
 
 
-// console.log();
-// console.log();
+
 // var
 // var
 // var
