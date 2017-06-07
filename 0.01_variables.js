@@ -17,9 +17,9 @@ var street = "1003 Summer Hill";
 var state = "Carmel, IN.";
 var zip = "46032";
 
-console.log("Your address is " + street + ", " + state + " " + zip + ".");
-
-
+console.log(street + ", \n" + state + " " + zip + ".");
+console.log("Ben says, \"Good morrow to you sir\" ");
+console.log("it's going to be a great day");
 
 
 
