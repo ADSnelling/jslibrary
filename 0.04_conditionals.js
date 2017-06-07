@@ -126,29 +126,33 @@ for (i = 1; i <= 100; i++) {
 
 var num = 1;
 
-while(num < 101){
 
-	if(num % 3 == 0 && num % 5 == 0){
 
+var num = 1;
+ 
+while(num < 101){ //while means that the whole time the conditional is true it will loop
+ 
+	if(num % 3 == 0 && num % 5 == 0){ //checking for most difficult condition
+ 
 		console.log("FizzBuzz");
-
-	}else if (num % 3 == 0) {
-
+ 
+	}else if (num % 3 == 0) { //checking for divisible by 3
+ 
 		console.log("Fizz");
-
-	}else if (num % 5 == 0) {
-
+ 
+	}else if (num % 5 == 0) { //checking for divisible by 5
+ 
 		console.log("Buzz");
-
-	}else{
-
-		console.log(num)
-
+ 
+	}else{ //not divisible by either
+ 
+		console.log(num) //neither, so print the variable
+ 
 	}//end if
-
-	num += 1;
-
-}
+ 
+	num += 1; //increments the variable so the loop can end, not having an expression such as this will cause you to loop endlessly and crash(youll have to quit the compiler and reopen in most cases
+ 
+}//end while
 
 
 
