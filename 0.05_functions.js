@@ -78,13 +78,30 @@ console.log(remain(60,4));
 console.log(subby(103,34));
 
 
+function makeWord(word,wordTwo){
+	var wordNew = word + " " + wordTwo;
+	console.log(wordNew)
+}
+
+makeWord("hello","goodbye");
+
+
+function getBills(rent,util,web,cable,food){
+	var billTotal = rent + util + web + cable + food;
+	console.log("Your monthly bills are $" + billTotal + "!");
+}
+
+getBills(1000,200,100,50,300);
 
 
 
+function sodaCost(amount, cost){
+	var beforeTax = (amount*cost);
+	var tax = .07;
+	console.log(amount + " Sodas will cost $" + (beforeTax + (beforeTax*tax)).toFixed(2));
+}
 
-
-
-
+sodaCost(90,1);
 
 
 
