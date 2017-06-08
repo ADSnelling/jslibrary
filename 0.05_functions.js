@@ -108,20 +108,38 @@ sodaCost(90,1);
 // ex calculator(2,*,2) -- 4
 
 function calculatte(num1, num2, op){
+
 	if (op == "+") {
+
 		return num1 + num2;
+
 	}else if(op == "-"){
+
 		return num1-num2;
+
 	}else if (op == "*") {
+
 		return num1*num2;
+
 	}else if (op == "/"){
+
 		return num1/num2;
-	}else{
+
+	}else if(op == "%"){
+
 		return num1%num2;
-	}
-}
+
+	}else{
+
+		return "Please enter a real operator bro you goofed it";
+
+	}//end if
+
+}//end calculatte
 
 console.log(calculatte(2, 5, "*"));
+
+
 
 
 
