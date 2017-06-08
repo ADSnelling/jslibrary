@@ -40,3 +40,35 @@ do{
 	console.log(counterTwo);
 	counterTwo--;
 }while(counterTwo >= 0);
+
+var loop = 0;
+
+while(loop < 50){
+	loop += 5;
+	console.log(loop);
+}
+
+var countWackula = 10;
+
+while(countWackula >= 0){
+
+	if(countWackula != 0){
+
+		console.log(countWackula);
+
+	}else{
+
+		console.log("Blast Off Breh");
+
+	}//end if
+
+	countWackula--;
+
+}//end while
+
+for(i = 1; i <= 100; i++){
+	console.log(i);
+}//end for
+
+
+
