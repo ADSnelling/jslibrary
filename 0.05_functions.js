@@ -80,7 +80,7 @@ console.log(subby(103,34));
 
 function makeWord(word,wordTwo){
 	var wordNew = word + " " + wordTwo;
-	console.log(wordNew)
+	console.log(wordNew);
 }
 
 makeWord("hello","goodbye");
@@ -104,6 +104,24 @@ function sodaCost(amount, cost){
 sodaCost(90,1);
 
 
+// Challenge, make a calculator function that accepts 3 arguments2 numbers and 1 operator
+// ex calculator(2,*,2) -- 4
+
+function calculatte(num1, num2, op){
+	if (op == "+") {
+		return num1 + num2;
+	}else if(op == "-"){
+		return num1-num2;
+	}else if (op == "*") {
+		return num1*num2;
+	}else if (op == "/"){
+		return num1/num2;
+	}else{
+		return num1%num2;
+	}
+}
+
+console.log(calculatte(2, 5, "*"));
 
 
 
