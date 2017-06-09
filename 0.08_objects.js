@@ -177,15 +177,6 @@ console.log(child4.gName());
 console.log(child4.gAge());
 
 
-// var names = ["jack", "nick", "rick", "tony", "jackson"];
-
-// function sortNames (list) {
-// 	return list.sort();
-
-// }
-
-// console.log(sortNames(names));
-
 
 
 
