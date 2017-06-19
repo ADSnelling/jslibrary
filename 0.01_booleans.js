@@ -1,4 +1,4 @@
-var isInSchool = true;
+var isInSchool = true; //declaring boolean vars, to be logged to the console with various strings as a proof of concept for true and false statements
 var hasACar = true;
 var isFunny = true;
 
@@ -19,4 +19,4 @@ var noOrYes = false;
 
 
 var noYes = yesOrNo && noOrYes;
-console.log(noYes);
+console.log(noYes); //var noYes is saying, if both of the refd vars are true, return true. they are not, returns false.

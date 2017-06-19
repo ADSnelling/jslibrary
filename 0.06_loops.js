@@ -12,9 +12,7 @@
 	// that can actually happen, you will loop forever otherwise)
 	// code to loop after "DO"
 
-
-
-
+	
 	// code to end the loop(using increments(more options as we learn more code))
 	// lcv++;
 	// 

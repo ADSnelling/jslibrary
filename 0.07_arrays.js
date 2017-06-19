@@ -72,5 +72,6 @@ for(bet = 0; bet <5; bet++){
 }//end outside for
 
 console.log(rand);
-
+//using math.rand to make a function that makes 5 random words comprised of 5 random letters, then storing them in an array, and pushing each name as they are 
+//made into the array
 

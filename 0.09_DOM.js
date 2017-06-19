@@ -27,4 +27,4 @@ function showAllHotelsInfo(){
 	}
 }
 showAllHotelsInfo();
-
+//using element ids and appendchild to directly apply javascript code to the html page

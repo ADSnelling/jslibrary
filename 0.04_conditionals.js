@@ -15,6 +15,7 @@ console.log(10 != 10);
 var name = "snail";
 console.log(name == "Snail");
 console.log(name === "Snail");
+//== is not the same as ===
 
 console.log(6 == "6");
 console.log(6 === "6");
@@ -28,7 +29,7 @@ if (242 % 2 === 0) {
 
 	console.log("nah breh");
 	
-}
+}//end if | checking if a number is divisible evenly by two, (checking for even or odd)
 
 var userName = "adminn";
 var password = "passwordd";
@@ -56,7 +57,7 @@ if (userName == "admin" && password == "password") {
 	}
 	
 }
-
+//using conditionals for a basic password and username checker(login thingy)
 var age = 20;
 
 if (age >= 35) {
@@ -76,7 +77,7 @@ if (age >= 35) {
 	console.log("sucks to suck");
 
 }
-
+//using conditionals to let you know what you can do at the age specified in 'age', hardest condition always first
 
 var coltsWins = 4;
 var patsWins = 0;
@@ -98,7 +99,7 @@ if (coltsWins == 0 && patsWins == 0){
 	console.log("sucks to suck brady");
 
 }
-
+//using conditionals to compare colts vs pats wins, talking crap regardless of the outcome because its the pats
 
 for (i = 1; i <= 100; i++) { 
 
@@ -122,11 +123,8 @@ for (i = 1; i <= 100; i++) {
 
 }//end for loop
 
-
-
-var num = 1;
-
-
+//fizzbuzz, print 1-100, multiples of 3 print fixx, multiples of 5 print buzz, multiples of both print fizzbuzz
+//using a for loop
 
 var num = 1;
  
@@ -154,11 +152,4 @@ while(num < 101){ //while means that the whole time the conditional is true it w
  
 }//end while
 
-
-
-
-
-// var
-// var
-// var
-
+//using a while loop to recieve the same results as the for loop above

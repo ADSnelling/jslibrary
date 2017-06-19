@@ -24,12 +24,13 @@ var furryFriends = {
 	weight    : 20,
 	foundHere : false,
 	habitat   : "Forested areas"
-};
+};//keys for objects are seperated by commas, and assigned with :
 
 console.log(furryFriends.type);
 console.log(furryFriends);
 console.log(furryFriends["habitat"]);
 furryFriends["nickName"] = "Rodent Squid";
+//setting object keys to values
 
 console.log(furryFriends["nickName"] + " lives in " + furryFriends["habitat"]);
 
@@ -62,6 +63,7 @@ var theBryceIsRight = {
 console.log(theBryceIsRight.greeting());
 
 theBryceIsRight.bothOfEm();
+//entire functions can be implemented into an object, and you can call those functions by referencing the function after the objecct itself with .
 
 
 
